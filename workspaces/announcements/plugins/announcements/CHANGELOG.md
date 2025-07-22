@@ -1,5 +1,21 @@
 # @backstage-community/plugin-announcements
 
+## 0.10.0
+
+### Minor Changes
+
+- bb76f4e: This change introduces tag filtering to announcements, allowing users to filter by tag by clicking on a tag on an announcement card.
+- 220cc20: Backstage version bump to v1.41.1
+
+### Patch Changes
+
+- dc03b75: Remove redundant `EntityPeekAheadPopover` when hovering over user or group entity.
+- ee361a8: Removed a redundant inner check for `tags` existence and length.
+- Updated dependencies [bb76f4e]
+- Updated dependencies [220cc20]
+  - @backstage-community/plugin-announcements-react@0.9.0
+  - @backstage-community/plugin-announcements-common@0.7.0
+
 ## 0.9.0
 
 ### Minor Changes
