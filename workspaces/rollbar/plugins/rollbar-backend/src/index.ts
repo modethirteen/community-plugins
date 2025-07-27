@@ -20,6 +20,4 @@
  * @packageDocumentation
  */
 
-export * from './api';
-export * from './service/router';
 export { rollbarPlugin as default } from './plugin';
